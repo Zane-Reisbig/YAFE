@@ -23,6 +23,8 @@ Whether it be modding, pictures, or whatever you can quickly and easily move fil
 
 
 ## A quick select/favorite system
+![picture of application with favorites menu opened](https://github.com/SRGTxTwinkie/YAFE/blob/main/Running.png?raw=true)
+
 <p>You no longer have to search down those crazy paths!</p>
 <p>Added because I care about the long term support of my users</p>
 <p>Added mostly because your boy now has 2 locations to slap  </br>
