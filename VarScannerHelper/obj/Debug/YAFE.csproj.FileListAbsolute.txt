@@ -1,0 +1,12 @@
+C:\Users\zaned\source\repos\VarScannerHelper\VarScannerHelper\obj\Debug\YAFE.csproj.AssemblyReference.cache
+C:\Users\zaned\source\repos\VarScannerHelper\VarScannerHelper\obj\Debug\YAFE.csproj.SuggestedBindingRedirects.cache
+C:\Users\zaned\source\repos\VarScannerHelper\VarScannerHelper\obj\Debug\YAFE.Form1.resources
+C:\Users\zaned\source\repos\VarScannerHelper\VarScannerHelper\obj\Debug\YAFE.SavedLocationForm.resources
+C:\Users\zaned\source\repos\VarScannerHelper\VarScannerHelper\obj\Debug\YAFE.csproj.GenerateResource.cache
+C:\Users\zaned\source\repos\VarScannerHelper\VarScannerHelper\obj\Debug\YAFE.csproj.CoreCompileInputs.cache
+C:\Users\zaned\source\repos\VarScannerHelper\VarScannerHelper\bin\Debug\YAFE.exe.config
+C:\Users\zaned\source\repos\VarScannerHelper\VarScannerHelper\bin\Debug\YAFE.exe
+C:\Users\zaned\source\repos\VarScannerHelper\VarScannerHelper\bin\Debug\YAFE.pdb
+C:\Users\zaned\source\repos\VarScannerHelper\VarScannerHelper\obj\Debug\YAFE.Properties.Resources.resources
+C:\Users\zaned\source\repos\VarScannerHelper\VarScannerHelper\obj\Debug\YAFE.exe
+C:\Users\zaned\source\repos\VarScannerHelper\VarScannerHelper\obj\Debug\YAFE.pdb
