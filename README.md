@@ -2,6 +2,7 @@
   - Sorting out code to make it easier for me
   - Migrating to Rider now that the GUI is mostly done
   - A general clean up
+  - Most likely a UI changeup/cleanup
 
 # YAFE
 Yet Another File Explorer </br>
