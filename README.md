@@ -1,5 +1,5 @@
 # YAFE
-Yet Another File Explorer
+Yet Another File Explorer </br>
 Tired of moving all those things out of your downloads folder manually?</br>
 Well do I have the thing for you!
 
