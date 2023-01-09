@@ -1,3 +1,8 @@
+### Currently Working On
+  - Sorting out code to make it easier for me
+  - Migrating to Rider now that the GUI is mostly done
+  - A general clean up
+
 # YAFE
 Yet Another File Explorer </br>
 Tired of moving all those things out of your downloads folder manually?</br>
