@@ -10,6 +10,7 @@ Tired of moving all those things out of your downloads folder manually?</br>
 Well do I have the thing for you!
 
 ![picture of application with contents scanned](https://github.com/SRGTxTwinkie/YAFE/blob/main/Running.png?raw=true)
+The UI has changed, and will change more. These screenshots most likey won't be updated until the far future.
 
 Whether it be modding, pictures, or whatever you can quickly and easily move files around.
 
