@@ -1,3 +1,6 @@
+## Only tested on Windows 10
+That is the OS I have 🤷‍♂️ sorry.
+
 ### Currently Working On
   - Sorting out code to make it easier for me
   - Migrating to Rider now that the GUI is mostly done
