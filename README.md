@@ -1,5 +1,8 @@
 ## Only tested on Windows 10
-That is the OS I have 🤷‍♂️ sorry.
+That is the OS I have 🤷‍♂️ sorry.</br>
+It will work on other windows os's because</br>
+it's a winforms in C# but unexpected behavior</br>
+I have no idea about.
 
 ### Currently Working On
   - Sorting out code to make it easier for me
