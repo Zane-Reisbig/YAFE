@@ -65,7 +65,7 @@ Q - Will this work for me? </br>
 A - I have no idea.
 
 Q - Are you adding more to this? </br>
-A - I doubt it bucko.
+A - I doubt it.
 
 Q - Is it safe to download </br>
 A - I can give you the code I guess.
@@ -77,7 +77,7 @@ Q - Have you tested the code extensively </br>
 A - No :grin:
 
 Q - What Happens if I spam buttons or press the "Enter" key a ton in the text fields </br>
-A - F\*\*k around and find out I guess :man_shrugging:
+A - It will crash, thank you for asking
 
 Open in Explorer\* - Ten or more files will cause quite a bit of lag when opening files with explorer, there </br>
 is a prompt to let you know, but you can still go for it if you want.
