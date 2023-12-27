@@ -84,13 +84,13 @@ namespace YAFE
 
 
             // >:D
-            progressBar1.Value = 75;
-            Thread.Sleep(300);
-            progressBar1.Value = 80;
-            Thread.Sleep(200);
-            progressBar1.Value = 85;
-            Thread.Sleep(250);
-            progressBar1.Value = 100;
+            //progressBar1.Value = 75;
+            //Thread.Sleep(300);
+            //progressBar1.Value = 80;
+            //Thread.Sleep(200);
+            //progressBar1.Value = 85;
+            //Thread.Sleep(250);
+            //progressBar1.Value = 100;
             // >:D
 
         }
@@ -236,7 +236,6 @@ namespace YAFE
             if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
                 quickAppLauchPath = openFileDialog.FileName;
-                QuickAppTextBox.Text = quickAppLauchPath.LastIndexOf("\\") > 0 ? quickAppLauchPath.Substring(quickAppLauchPath.LastIndexOf("\\") + 1) : quickAppLauchPath;
             }
 
             Settings.Default.quickAppPath = quickAppLauchPath;
@@ -263,6 +262,7 @@ namespace YAFE
             Settings.Default.currentMovePath = _currentMovePath;
             Settings.Default.currentScanPath = _currentScanPath;
             Settings.Default.fileAge = _fileAge;
+            Settings.Default.quickAppPath = quickAppLauchPath;
             Settings.Default.fileExtension = _fileExtension;
             Settings.Default.windowSize = _windowSize;
             Settings.Default.Save();

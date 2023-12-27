@@ -51,10 +51,6 @@
             this.OpenInExplorerRadio = new System.Windows.Forms.RadioButton();
             this.FilesCheckedLabel = new System.Windows.Forms.Label();
             this.SelectAllButton = new System.Windows.Forms.Button();
-            this.LaunchAppButton = new System.Windows.Forms.Button();
-            this.QuickAppTextBox = new System.Windows.Forms.TextBox();
-            this.QuickAppFolderButton = new System.Windows.Forms.Button();
-            this.label6 = new System.Windows.Forms.Label();
             this.DeSelectAllButton = new System.Windows.Forms.Button();
             this.SavedLocationsFromButton = new System.Windows.Forms.Button();
             this.SavedLocationsToButton = new System.Windows.Forms.Button();
@@ -65,7 +61,7 @@
             // 
             this.ScanLocationTextBox.Location = new System.Drawing.Point(29, 39);
             this.ScanLocationTextBox.Name = "ScanLocationTextBox";
-            this.ScanLocationTextBox.Size = new System.Drawing.Size(496, 20);
+            this.ScanLocationTextBox.Size = new System.Drawing.Size(653, 20);
             this.ScanLocationTextBox.TabIndex = 1;
             this.ScanLocationTextBox.TextChanged += new System.EventHandler(this.ScanLocationTextBox_TextChanged);
             // 
@@ -80,7 +76,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(531, 39);
+            this.button2.Location = new System.Drawing.Point(688, 38);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(32, 20);
             this.button2.TabIndex = 3;
@@ -167,7 +163,7 @@
             // 
             // FileExtTextBox
             // 
-            this.FileExtTextBox.Location = new System.Drawing.Point(162, 65);
+            this.FileExtTextBox.Location = new System.Drawing.Point(185, 66);
             this.FileExtTextBox.Name = "FileExtTextBox";
             this.FileExtTextBox.Size = new System.Drawing.Size(72, 20);
             this.FileExtTextBox.TabIndex = 8;
@@ -180,7 +176,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(162, 88);
+            this.label4.Location = new System.Drawing.Point(185, 89);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(74, 26);
             this.label4.TabIndex = 9;
@@ -189,7 +185,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(240, 88);
+            this.label5.Location = new System.Drawing.Point(293, 89);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(45, 26);
             this.label5.TabIndex = 9;
@@ -197,7 +193,7 @@
             // 
             // FileAgeNumUpDown
             // 
-            this.FileAgeNumUpDown.Location = new System.Drawing.Point(240, 65);
+            this.FileAgeNumUpDown.Location = new System.Drawing.Point(293, 66);
             this.FileAgeNumUpDown.Maximum = new decimal(new int[] {
             999,
             0,
@@ -270,47 +266,6 @@
             this.SelectAllButton.UseVisualStyleBackColor = true;
             this.SelectAllButton.Click += new System.EventHandler(this.SelectAllButton_Click);
             // 
-            // LaunchAppButton
-            // 
-            this.LaunchAppButton.Location = new System.Drawing.Point(589, 66);
-            this.LaunchAppButton.Name = "LaunchAppButton";
-            this.LaunchAppButton.Size = new System.Drawing.Size(119, 22);
-            this.LaunchAppButton.TabIndex = 16;
-            this.LaunchAppButton.Text = "Launch App";
-            this.LaunchAppButton.UseVisualStyleBackColor = true;
-            this.LaunchAppButton.Click += new System.EventHandler(this.LaunchAppButton_Click);
-            // 
-            // QuickAppTextBox
-            // 
-            this.QuickAppTextBox.Location = new System.Drawing.Point(589, 40);
-            this.QuickAppTextBox.Name = "QuickAppTextBox";
-            this.QuickAppTextBox.Size = new System.Drawing.Size(119, 20);
-            this.QuickAppTextBox.TabIndex = 8;
-            this.QuickAppTextBox.Text = "No App Selected";
-            this.QuickAppTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.QuickAppTextBox.WordWrap = false;
-            this.QuickAppTextBox.TextChanged += new System.EventHandler(this.FileExtTextBox_TextChanged);
-            // 
-            // QuickAppFolderButton
-            // 
-            this.QuickAppFolderButton.Location = new System.Drawing.Point(714, 41);
-            this.QuickAppFolderButton.Name = "QuickAppFolderButton";
-            this.QuickAppFolderButton.Size = new System.Drawing.Size(26, 19);
-            this.QuickAppFolderButton.TabIndex = 3;
-            this.QuickAppFolderButton.Text = "📂";
-            this.QuickAppFolderButton.UseVisualStyleBackColor = true;
-            this.QuickAppFolderButton.Click += new System.EventHandler(this.QuickAppFolderButton_Click);
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(595, 23);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(96, 13);
-            this.label6.TabIndex = 17;
-            this.label6.Text = "Quick Launch App";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
             // DeSelectAllButton
             // 
             this.DeSelectAllButton.Location = new System.Drawing.Point(633, 388);
@@ -323,7 +278,7 @@
             // 
             // SavedLocationsFromButton
             // 
-            this.SavedLocationsFromButton.Location = new System.Drawing.Point(464, 63);
+            this.SavedLocationsFromButton.Location = new System.Drawing.Point(621, 62);
             this.SavedLocationsFromButton.Name = "SavedLocationsFromButton";
             this.SavedLocationsFromButton.Size = new System.Drawing.Size(99, 23);
             this.SavedLocationsFromButton.TabIndex = 3;
@@ -346,8 +301,6 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(748, 450);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.LaunchAppButton);
             this.Controls.Add(this.DeSelectAllButton);
             this.Controls.Add(this.SelectAllButton);
             this.Controls.Add(this.FilesCheckedLabel);
@@ -357,13 +310,11 @@
             this.Controls.Add(this.FileAgeNumUpDown);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.QuickAppTextBox);
             this.Controls.Add(this.FileExtTextBox);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.FilesFoundListView);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.MovePathButton);
-            this.Controls.Add(this.QuickAppFolderButton);
             this.Controls.Add(this.SavedLocationsToButton);
             this.Controls.Add(this.SavedLocationsFromButton);
             this.Controls.Add(this.button2);
@@ -407,10 +358,6 @@
         private System.Windows.Forms.RadioButton OpenInExplorerRadio;
         private System.Windows.Forms.Label FilesCheckedLabel;
         private System.Windows.Forms.Button SelectAllButton;
-        private System.Windows.Forms.Button LaunchAppButton;
-        private System.Windows.Forms.TextBox QuickAppTextBox;
-        private System.Windows.Forms.Button QuickAppFolderButton;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button DeSelectAllButton;
         private System.Windows.Forms.Button SavedLocationsFromButton;
         private System.Windows.Forms.Button SavedLocationsToButton;

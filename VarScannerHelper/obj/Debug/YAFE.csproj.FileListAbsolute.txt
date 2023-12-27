@@ -1,5 +1,4 @@
 C:\Users\zaned\source\repos\VarScannerHelper\VarScannerHelper\obj\Debug\YAFE.csproj.AssemblyReference.cache
-C:\Users\zaned\source\repos\VarScannerHelper\VarScannerHelper\obj\Debug\YAFE.csproj.SuggestedBindingRedirects.cache
 C:\Users\zaned\source\repos\VarScannerHelper\VarScannerHelper\obj\Debug\YAFE.Form1.resources
 C:\Users\zaned\source\repos\VarScannerHelper\VarScannerHelper\obj\Debug\YAFE.SavedLocationForm.resources
 C:\Users\zaned\source\repos\VarScannerHelper\VarScannerHelper\obj\Debug\YAFE.csproj.GenerateResource.cache

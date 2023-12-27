@@ -228,7 +228,7 @@ namespace YAFE
                 return;
             }
 
-            ItemsSelectedToCountLabel.Text = "Items Selected: " + ToListView.SelectedItems.Count.ToString();
+            //ItemsSelectedToCountLabel.Text = "Items Selected: " + ToListView.SelectedItems.Count.ToString();
         }
 
         private void DelModeToCheck_CheckedChanged(object sender, EventArgs e)
@@ -275,6 +275,18 @@ namespace YAFE
         private void ToSwitchButton_Click(object sender, EventArgs e)
         {
             SetReturnValues(1);
+        }
+
+        private void QuickAppCurrentAddButton_Click(object sender, EventArgs e)
+        {
+            if (ToListView.Items.Cast<ListViewItem>().Any(x => x.Text == saveFormCurrentMovePath))
+            {
+                MessageBox.Show("This location is already saved");
+                return;
+            }
+
+            ToListView.Items.Add(saveFormCurrentMovePath);
+
         }
     }
 }

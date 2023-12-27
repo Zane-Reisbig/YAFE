@@ -44,7 +44,6 @@
             this.CurrentPathToClearButton = new System.Windows.Forms.Button();
             this.CurrentPathToAddButton = new System.Windows.Forms.Button();
             this.DeleteSelectedToButton = new System.Windows.Forms.Button();
-            this.ItemsSelectedToCountLabel = new System.Windows.Forms.Label();
             this.FromLocationFolderButton = new System.Windows.Forms.Button();
             this.ToLocationFolderButton = new System.Windows.Forms.Button();
             this.FromSwitchButton = new System.Windows.Forms.Button();
@@ -68,7 +67,7 @@
             // 
             this.ToListView.GridLines = true;
             this.ToListView.HideSelection = false;
-            this.ToListView.Location = new System.Drawing.Point(12, 237);
+            this.ToListView.Location = new System.Drawing.Point(12, 212);
             this.ToListView.Name = "ToListView";
             this.ToListView.Size = new System.Drawing.Size(591, 113);
             this.ToListView.TabIndex = 0;
@@ -78,7 +77,7 @@
             // CloseButton
             // 
             this.CloseButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.CloseButton.Location = new System.Drawing.Point(12, 421);
+            this.CloseButton.Location = new System.Drawing.Point(12, 370);
             this.CloseButton.Name = "CloseButton";
             this.CloseButton.Size = new System.Drawing.Size(195, 35);
             this.CloseButton.TabIndex = 1;
@@ -89,7 +88,7 @@
             // ConfirmFormCloseButton
             // 
             this.ConfirmFormCloseButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.ConfirmFormCloseButton.Location = new System.Drawing.Point(568, 421);
+            this.ConfirmFormCloseButton.Location = new System.Drawing.Point(568, 370);
             this.ConfirmFormCloseButton.Name = "ConfirmFormCloseButton";
             this.ConfirmFormCloseButton.Size = new System.Drawing.Size(195, 35);
             this.ConfirmFormCloseButton.TabIndex = 1;
@@ -109,7 +108,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 221);
+            this.label2.Location = new System.Drawing.Point(12, 196);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(64, 13);
             this.label2.TabIndex = 2;
@@ -117,7 +116,7 @@
             // 
             // CurrentPathToTextBox
             // 
-            this.CurrentPathToTextBox.Location = new System.Drawing.Point(12, 355);
+            this.CurrentPathToTextBox.Location = new System.Drawing.Point(12, 330);
             this.CurrentPathToTextBox.Name = "CurrentPathToTextBox";
             this.CurrentPathToTextBox.Size = new System.Drawing.Size(550, 20);
             this.CurrentPathToTextBox.TabIndex = 3;
@@ -182,7 +181,7 @@
             // CurrentPathToClearButton
             // 
             this.CurrentPathToClearButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.CurrentPathToClearButton.Location = new System.Drawing.Point(607, 356);
+            this.CurrentPathToClearButton.Location = new System.Drawing.Point(607, 331);
             this.CurrentPathToClearButton.Name = "CurrentPathToClearButton";
             this.CurrentPathToClearButton.Size = new System.Drawing.Size(75, 20);
             this.CurrentPathToClearButton.TabIndex = 4;
@@ -193,7 +192,7 @@
             // CurrentPathToAddButton
             // 
             this.CurrentPathToAddButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.CurrentPathToAddButton.Location = new System.Drawing.Point(688, 356);
+            this.CurrentPathToAddButton.Location = new System.Drawing.Point(688, 331);
             this.CurrentPathToAddButton.Name = "CurrentPathToAddButton";
             this.CurrentPathToAddButton.Size = new System.Drawing.Size(75, 20);
             this.CurrentPathToAddButton.TabIndex = 4;
@@ -204,22 +203,13 @@
             // DeleteSelectedToButton
             // 
             this.DeleteSelectedToButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.DeleteSelectedToButton.Location = new System.Drawing.Point(607, 327);
+            this.DeleteSelectedToButton.Location = new System.Drawing.Point(607, 302);
             this.DeleteSelectedToButton.Name = "DeleteSelectedToButton";
             this.DeleteSelectedToButton.Size = new System.Drawing.Size(156, 23);
             this.DeleteSelectedToButton.TabIndex = 5;
             this.DeleteSelectedToButton.Text = "Delete Selected";
             this.DeleteSelectedToButton.UseVisualStyleBackColor = false;
             this.DeleteSelectedToButton.Click += new System.EventHandler(this.DeleteSelectedToButton_Click);
-            // 
-            // ItemsSelectedToCountLabel
-            // 
-            this.ItemsSelectedToCountLabel.AutoSize = true;
-            this.ItemsSelectedToCountLabel.Location = new System.Drawing.Point(509, 378);
-            this.ItemsSelectedToCountLabel.Name = "ItemsSelectedToCountLabel";
-            this.ItemsSelectedToCountLabel.Size = new System.Drawing.Size(89, 13);
-            this.ItemsSelectedToCountLabel.TabIndex = 6;
-            this.ItemsSelectedToCountLabel.Text = "Items Selected: 0";
             // 
             // FromLocationFolderButton
             // 
@@ -232,7 +222,7 @@
             // 
             // ToLocationFolderButton
             // 
-            this.ToLocationFolderButton.Location = new System.Drawing.Point(568, 355);
+            this.ToLocationFolderButton.Location = new System.Drawing.Point(568, 330);
             this.ToLocationFolderButton.Name = "ToLocationFolderButton";
             this.ToLocationFolderButton.Size = new System.Drawing.Size(32, 20);
             this.ToLocationFolderButton.TabIndex = 3;
@@ -253,7 +243,7 @@
             // ToSwitchButton
             // 
             this.ToSwitchButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.ToSwitchButton.Location = new System.Drawing.Point(610, 237);
+            this.ToSwitchButton.Location = new System.Drawing.Point(610, 212);
             this.ToSwitchButton.Name = "ToSwitchButton";
             this.ToSwitchButton.Size = new System.Drawing.Size(153, 31);
             this.ToSwitchButton.TabIndex = 8;
@@ -275,7 +265,7 @@
             // DelModeToCheck
             // 
             this.DelModeToCheck.AutoSize = true;
-            this.DelModeToCheck.Location = new System.Drawing.Point(609, 304);
+            this.DelModeToCheck.Location = new System.Drawing.Point(609, 279);
             this.DelModeToCheck.Name = "DelModeToCheck";
             this.DelModeToCheck.Size = new System.Drawing.Size(87, 17);
             this.DelModeToCheck.TabIndex = 9;
@@ -287,12 +277,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 469);
+            this.ClientSize = new System.Drawing.Size(800, 415);
             this.Controls.Add(this.DelModeToCheck);
             this.Controls.Add(this.DelModeFromCheck);
             this.Controls.Add(this.ToSwitchButton);
             this.Controls.Add(this.FromSwitchButton);
-            this.Controls.Add(this.ItemsSelectedToCountLabel);
             this.Controls.Add(this.ItemsSelectedFromCountLabel);
             this.Controls.Add(this.DeleteSelectedToButton);
             this.Controls.Add(this.DeleteSelectedFromButton);
@@ -337,7 +326,6 @@
         private System.Windows.Forms.Button CurrentPathToClearButton;
         private System.Windows.Forms.Button CurrentPathToAddButton;
         private System.Windows.Forms.Button DeleteSelectedToButton;
-        private System.Windows.Forms.Label ItemsSelectedToCountLabel;
         private System.Windows.Forms.Button FromLocationFolderButton;
         private System.Windows.Forms.Button ToLocationFolderButton;
         private System.Windows.Forms.Button FromSwitchButton;
