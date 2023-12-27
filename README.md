@@ -1,15 +1,4 @@
 ## Only tested on Windows 10
-That is the OS I have 🤷‍♂️ sorry.</br>
-It will work on other windows os's because</br>
-it's a winforms in C# but unexpected behavior</br>
-I have no idea about.
-
-### Currently Working On
-  - Sorting out code to make it easier for me
-  - Migrating to Rider now that the GUI is mostly done
-  - A general clean up
-  - Most likely a UI changeup/cleanup
-
 # YAFE
 Yet Another File Explorer </br>
 Tired of moving all those things out of your downloads folder manually?</br>
