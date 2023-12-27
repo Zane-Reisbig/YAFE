@@ -62,19 +62,16 @@ Whether it be modding, pictures, or whatever you can quickly and easily move fil
 ## Q And A
 
 Q - Will this work for me? </br>
-A - I have no idea.
+A - Should.
 
 Q - Are you adding more to this? </br>
-A - I doubt it.
+A - I am actively removing features that are broken actually.
 
 Q - Is it safe to download </br>
 A - I can give you the code I guess.
 
 Q - Is it safe to move large files with? </br>
-A - Probably IDK.
-
-Q - Have you tested the code extensively </br>
-A - No :grin:
+A - Probably, don't turn off ur pc :yikes:
 
 Q - What Happens if I spam buttons or press the "Enter" key a ton in the text fields </br>
 A - It will crash, thank you for asking
