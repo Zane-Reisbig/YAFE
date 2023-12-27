@@ -41,7 +41,7 @@ Whether it be modding, pictures, or whatever you can quickly and easily move fil
 <p>You no longer have to search down those crazy paths!</p>
 <p>Added because I care about the long term support of my users</p>
 <p>Added mostly because your boy now has 2 locations to slap  </br>
-   my gross little download files all over my computer, and   </br>
+   my <strike>gross</strike><bold>scurvy laden</bold> download files all over my computer, and   </br>
    on different drives no less! This fixes all of those pesky </br>
    little problems. At no cost to you! (Yet...)
 </p>    
